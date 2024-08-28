@@ -1,0 +1,95 @@
+2024/08/26 13:27:50 Database connection successfully initialized
+2024/08/26 13:27:50 Starting server on :8080...
+2024/08/26 13:27:53 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:27:53 CreateNewPlayerID: Player created successfully with ID 7d94b9c9-3cde-4c30-9ad7-e7a543667ccf.
+2024/08/26 13:27:53 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:27:53 CreateLobby: Received request to create new lobby.
+2024/08/26 13:27:53 CreateLobby: Creating lobby for host ID 7d94b9c9-3cde-4c30-9ad7-e7a543667ccf.
+2024/08/26 13:27:53 CreateLobby: Lobby created successfully with ID 811868 and host ID 7d94b9c9-3cde-4c30-9ad7-e7a543667ccf.
+2024/08/26 13:27:53 CreateLobby: Response sent successfully.
+2024/08/26 13:27:53 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:27:53 CreateNewPlayerID: Player created successfully with ID 23ce8854-5db6-443b-a6cb-1954a41deb4f.
+2024/08/26 13:27:53 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:27:53 JoinLobby: Received request to join lobby.
+2024/08/26 13:27:53 JoinLobby: Player ID 23ce8854-5db6-443b-a6cb-1954a41deb4f attempting to join lobby ID 811868.
+2024/08/26 13:27:53 JoinLobby: Player ID 23ce8854-5db6-443b-a6cb-1954a41deb4f joined lobby ID 811868 successfully.
+2024/08/26 13:27:53 JoinLobby: Response sent successfully.
+2024/08/26 13:27:53 LeaveLobby: Received request to leave lobby.
+2024/08/26 13:27:53 LeaveLobby: Player ID 23ce8854-5db6-443b-a6cb-1954a41deb4f leaving lobby.
+2024/08/26 13:27:53 LeaveLobby: Error deleting lobby - no lobby found with the provided player ID
+2024/08/26 13:27:53 LeaveLobby: Player ID 23ce8854-5db6-443b-a6cb-1954a41deb4f left lobby successfully.
+2024/08/26 13:27:53 LeaveLobby: Response sent successfully.
+2024/08/26 13:27:53 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:27:53 CreateNewPlayerID: Player created successfully with ID 7cec5df3-76d0-401e-bb04-a671e16605a4.
+2024/08/26 13:27:53 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:27:53 CreateLobby: Received request to create new lobby.
+2024/08/26 13:27:53 CreateLobby: Creating lobby for host ID 7cec5df3-76d0-401e-bb04-a671e16605a4.
+2024/08/26 13:27:53 CreateLobby: Lobby created successfully with ID 873807 and host ID 7cec5df3-76d0-401e-bb04-a671e16605a4.
+2024/08/26 13:27:53 CreateLobby: Response sent successfully.
+2024/08/26 13:27:53 LeaveLobby: Received request to leave lobby.
+2024/08/26 13:27:53 LeaveLobby: Player ID 7cec5df3-76d0-401e-bb04-a671e16605a4 leaving lobby.
+2024/08/26 13:27:53 LeaveLobby: Lobby hosted by player ID 7cec5df3-76d0-401e-bb04-a671e16605a4 has been deleted.
+2024/08/26 13:27:53 LeaveLobby: Player ID 7cec5df3-76d0-401e-bb04-a671e16605a4 left lobby successfully.
+2024/08/26 13:27:53 LeaveLobby: Response sent successfully.
+2024/08/26 13:30:42 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:30:42 CreateNewPlayerID: Player created successfully with ID a3e87039-7a18-430c-b015-b1c7dc7ffc48.
+2024/08/26 13:30:42 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:30:42 CreateLobby: Received request to create new lobby.
+2024/08/26 13:30:42 CreateLobby: Creating lobby for host ID a3e87039-7a18-430c-b015-b1c7dc7ffc48.
+2024/08/26 13:30:42 CreateLobby: Lobby created successfully with ID 700651 and host ID a3e87039-7a18-430c-b015-b1c7dc7ffc48.
+2024/08/26 13:30:42 CreateLobby: Response sent successfully.
+2024/08/26 13:30:42 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:30:42 CreateNewPlayerID: Player created successfully with ID c2413858-5ccc-487b-882c-62b7be8cc764.
+2024/08/26 13:30:42 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:30:42 JoinLobby: Received request to join lobby.
+2024/08/26 13:30:42 JoinLobby: Player ID c2413858-5ccc-487b-882c-62b7be8cc764 attempting to join lobby ID 700651.
+2024/08/26 13:30:42 JoinLobby: Player ID c2413858-5ccc-487b-882c-62b7be8cc764 joined lobby ID 700651 successfully.
+2024/08/26 13:30:42 JoinLobby: Response sent successfully.
+2024/08/26 13:30:42 LeaveLobby: Received request to leave lobby.
+2024/08/26 13:30:42 LeaveLobby: Player ID c2413858-5ccc-487b-882c-62b7be8cc764 leaving lobby.
+2024/08/26 13:30:42 LeaveLobby: Error deleting lobby - no lobby found with the provided player ID
+2024/08/26 13:30:42 LeaveLobby: Player ID c2413858-5ccc-487b-882c-62b7be8cc764 left lobby successfully.
+2024/08/26 13:30:42 LeaveLobby: Response sent successfully.
+2024/08/26 13:30:42 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:30:42 CreateNewPlayerID: Player created successfully with ID 461998fe-732a-4aa3-a9d8-32872d1f892b.
+2024/08/26 13:30:42 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:30:42 CreateLobby: Received request to create new lobby.
+2024/08/26 13:30:42 CreateLobby: Creating lobby for host ID 461998fe-732a-4aa3-a9d8-32872d1f892b.
+2024/08/26 13:30:42 CreateLobby: Lobby created successfully with ID 658914 and host ID 461998fe-732a-4aa3-a9d8-32872d1f892b.
+2024/08/26 13:30:42 CreateLobby: Response sent successfully.
+2024/08/26 13:30:42 LeaveLobby: Received request to leave lobby.
+2024/08/26 13:30:42 LeaveLobby: Player ID 461998fe-732a-4aa3-a9d8-32872d1f892b leaving lobby.
+2024/08/26 13:30:42 LeaveLobby: Lobby hosted by player ID 461998fe-732a-4aa3-a9d8-32872d1f892b has been deleted.
+2024/08/26 13:30:42 LeaveLobby: Player ID 461998fe-732a-4aa3-a9d8-32872d1f892b left lobby successfully.
+2024/08/26 13:30:42 LeaveLobby: Response sent successfully.
+2024/08/26 13:31:58 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:31:58 CreateNewPlayerID: Player created successfully with ID 24f84eec-4550-4db0-a1e8-e78d8ef811fe.
+2024/08/26 13:31:58 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:31:58 CreateLobby: Received request to create new lobby.
+2024/08/26 13:31:58 CreateLobby: Creating lobby for host ID 24f84eec-4550-4db0-a1e8-e78d8ef811fe.
+2024/08/26 13:31:58 CreateLobby: Lobby created successfully with ID 963785 and host ID 24f84eec-4550-4db0-a1e8-e78d8ef811fe.
+2024/08/26 13:31:58 CreateLobby: Response sent successfully.
+2024/08/26 13:31:58 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:31:58 CreateNewPlayerID: Player created successfully with ID 62171b67-af0d-49e0-80ea-6aba2cdc89d7.
+2024/08/26 13:31:58 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:31:58 JoinLobby: Received request to join lobby.
+2024/08/26 13:31:58 JoinLobby: Player ID 62171b67-af0d-49e0-80ea-6aba2cdc89d7 attempting to join lobby ID 963785.
+2024/08/26 13:31:58 JoinLobby: Player ID 62171b67-af0d-49e0-80ea-6aba2cdc89d7 joined lobby ID 963785 successfully.
+2024/08/26 13:31:58 JoinLobby: Response sent successfully.
+2024/08/26 13:31:58 LeaveLobby: Received request to leave lobby.
+2024/08/26 13:31:58 LeaveLobby: Player ID 62171b67-af0d-49e0-80ea-6aba2cdc89d7 leaving lobby.
+2024/08/26 13:31:58 LeaveLobby: Error deleting lobby - no lobby found with the provided player ID
+2024/08/26 13:31:58 LeaveLobby: Player ID 62171b67-af0d-49e0-80ea-6aba2cdc89d7 left lobby successfully.
+2024/08/26 13:31:58 LeaveLobby: Response sent successfully.
+2024/08/26 13:31:58 CreateNewPlayerID: Received request to create new player.
+2024/08/26 13:31:58 CreateNewPlayerID: Player created successfully with ID d371de81-59b2-4752-bfce-5ce16a795104.
+2024/08/26 13:31:58 CreateNewPlayerID: Response sent successfully.
+2024/08/26 13:31:58 CreateLobby: Received request to create new lobby.
+2024/08/26 13:31:58 CreateLobby: Creating lobby for host ID d371de81-59b2-4752-bfce-5ce16a795104.
+2024/08/26 13:31:58 CreateLobby: Lobby created successfully with ID 785700 and host ID d371de81-59b2-4752-bfce-5ce16a795104.
+2024/08/26 13:31:58 CreateLobby: Response sent successfully.
+2024/08/26 13:31:58 LeaveLobby: Received request to leave lobby.
+2024/08/26 13:31:58 LeaveLobby: Player ID d371de81-59b2-4752-bfce-5ce16a795104 leaving lobby.
+2024/08/26 13:31:58 LeaveLobby: Lobby hosted by player ID d371de81-59b2-4752-bfce-5ce16a795104 has been deleted.
+2024/08/26 13:31:58 LeaveLobby: Player ID d371de81-59b2-4752-bfce-5ce16a795104 left lobby successfully.
+2024/08/26 13:31:58 LeaveLobby: Response sent successfully.

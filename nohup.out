@@ -1,0 +1,389 @@
+time="2024-08-21T14:51:00.367461034-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-21T14:51:00.379795789-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.384097952-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.384801765-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-21T14:51:00.386473792-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.387114231-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.387614952-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.388013717-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-21T14:51:00.388324385-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.388850891-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.390289122-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.391181144-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-21T14:51:00.391525548-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-21T14:51:00.391864098-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-21T14:51:00.392193883-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-21T14:51:10.393728698-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
+time="2024-08-21T14:59:17.294157288-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-21T14:59:17.308890840-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.313047336-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.313765145-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-21T14:59:17.314134368-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.314814112-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.315194347-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.316101742-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-21T14:59:17.316576547-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.317207963-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.318175642-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.319414640-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-21T14:59:17.319980427-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-21T14:59:17.320576801-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-21T14:59:17.320980006-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-21T14:59:27.322490629-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
+containerd: context canceled
+time="2024-08-22T14:57:06.807239715-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-22T14:57:06.816933829-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.820588132-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.821369521-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-22T14:57:06.822383119-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.822792904-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.823404790-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.824002027-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-22T14:57:06.824844555-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.825842914-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.826664132-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.828081454-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-22T14:57:06.828999228-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-22T14:57:06.830520048-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-22T14:57:06.831187027-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-22T14:57:06.834031115-04:00" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+time="2024-08-22T14:57:06.834689289-04:00" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+time="2024-08-22T14:57:06.835155740-04:00" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+time="2024-08-22T14:57:06.836142374-04:00" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+time="2024-08-22T14:57:06.836753559-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+time="2024-08-22T14:57:06.838299261-04:00" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+time="2024-08-22T14:57:06.838919315-04:00" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+time="2024-08-22T14:57:06.840885340-04:00" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.841657474-04:00" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.842348073-04:00" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.843295859-04:00" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.843787485-04:00" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.844455624-04:00" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.845106240-04:00" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.845556107-04:00" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.845914424-04:00" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+time="2024-08-22T14:57:06.846479524-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.846886735-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.847239749-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.847748676-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.848659292-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.848966859-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.849402797-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.849944478-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.850418093-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.850889598-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.851109906-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.851497682-04:00" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2024-08-22T14:57:06.852090406-04:00" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="no OpenTelemetry endpoint: skip plugin" type=io.containerd.tracing.processor.v1
+time="2024-08-22T14:57:06.852686160-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2024-08-22T14:57:06.853261991-04:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+time="2024-08-22T14:57:06.853635111-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2024-08-22T14:57:06.854122707-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.854723461-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.cri\"..." type=io.containerd.grpc.v1
+time="2024-08-22T14:57:06.856275856-04:00" level=info msg="Start cri plugin with config {PluginConfig:{ContainerdConfig:{Snapshotter:overlayfs DefaultRuntimeName:runc DefaultRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} UntrustedWorkloadRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} Runtimes:map[runc:{Type:io.containerd.runc.v2 Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[BinaryName: CriuImagePath: CriuPath: CriuWorkPath: IoGid:0 IoUid:0 NoNewKeyring:false NoPivotRoot:false Root: ShimCgroup: SystemdCgroup:false] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0}] NoPivot:false DisableSnapshotAnnotations:true DiscardUnpackedLayers:false IgnoreRdtNotEnabledErrors:false} CniConfig:{NetworkPluginBinDir:/opt/cni/bin NetworkPluginConfDir:/etc/cni/net.d NetworkPluginMaxConfNum:1 NetworkPluginConfTemplate: IPPreference:} Registry:{ConfigPath: Mirrors:map[] Configs:map[] Auths:map[] Headers:map[]} ImageDecryption:{KeyModel:node} DisableTCPService:true StreamServerAddress:127.0.0.1 StreamServerPort:0 StreamIdleTimeout:4h0m0s EnableSelinux:false SelinuxCategoryRange:1024 SandboxImage:registry.k8s.io/pause:3.6 StatsCollectPeriod:10 SystemdCgroup:false EnableTLSStreaming:false X509KeyPairStreaming:{TLSCertFile: TLSKeyFile:} MaxContainerLogLineSize:16384 DisableCgroup:false DisableApparmor:false RestrictOOMScoreAdj:false MaxConcurrentDownloads:3 DisableProcMount:false UnsetSeccompProfile: TolerateMissingHugetlbController:true DisableHugetlbController:true DeviceOwnershipFromSecurityContext:false IgnoreImageDefinedVolumes:false NetNSMountsUnderStateDir:false EnableUnprivilegedPorts:false EnableUnprivilegedICMP:false} ContainerdRootDir:/var/lib/containerd ContainerdEndpoint:/run/containerd/containerd.sock RootDir:/var/lib/containerd/io.containerd.grpc.v1.cri StateDir:/run/containerd/io.containerd.grpc.v1.cri}"
+time="2024-08-22T14:57:06.856808309-04:00" level=info msg="Connect containerd service"
+time="2024-08-22T14:57:06.857292088-04:00" level=info msg="Get image filesystem path \"/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs\""
+time="2024-08-22T14:57:06.860864340-04:00" level=error msg="failed to load cni during init, please check CRI plugin status before setting up network for pods" error="cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config"
+time="2024-08-22T14:57:06.861794512-04:00" level=info msg="Start subscribing containerd event"
+time="2024-08-22T14:57:06.862656853-04:00" level=info msg="Start recovering state"
+time="2024-08-22T14:57:06.863411850-04:00" level=info msg="Start event monitor"
+time="2024-08-22T14:57:06.861986611-04:00" level=info msg=serving... address=/run/containerd/containerd.sock.ttrpc
+time="2024-08-22T14:57:06.864433295-04:00" level=info msg="Start snapshots syncer"
+time="2024-08-22T14:57:06.865681996-04:00" level=info msg="Start cni network conf syncer for default"
+time="2024-08-22T14:57:06.866507548-04:00" level=info msg="Start streaming server"
+time="2024-08-22T14:57:06.864850166-04:00" level=info msg=serving... address=/run/containerd/containerd.sock
+time="2024-08-22T14:57:06.868178762-04:00" level=info msg="containerd successfully booted in 0.063229s"
+time="2024-08-22T15:01:19.190515550-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-22T15:01:19.190971883-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-22T15:01:19.190979984-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-22T15:01:19.191111459-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=313 runtime=io.containerd.runc.v2
+time="2024-08-22T15:04:06.377647069-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-22T15:04:06.387298806-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.389126145-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.389577297-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-22T15:04:06.389874351-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.390419062-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.390658436-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.391058091-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-22T15:04:06.391444637-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.391846529-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.392339917-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.393419443-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-22T15:04:06.393873881-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-22T15:04:06.394319485-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-22T15:04:06.394606920-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-22T15:04:16.396688843-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
+time="2024-08-22T15:04:18.672598397-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-22T15:04:18.673101733-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-22T15:04:18.673718765-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-22T15:04:18.681721235-04:00" level=warning msg="cleanup warnings time=\"2024-08-22T15:04:18-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=749 runtime=io.containerd.runc.v2\n"
+time="2024-08-22T15:04:48.493057824-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-22T15:04:48.493143191-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-22T15:04:48.493149668-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-22T15:04:48.493329354-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=831 runtime=io.containerd.runc.v2
+time="2024-08-22T15:09:44.642723163-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-22T15:09:44.643298763-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-22T15:09:44.643693380-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-22T15:09:44.651486089-04:00" level=warning msg="cleanup warnings time=\"2024-08-22T15:09:44-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=1046 runtime=io.containerd.runc.v2\n"
+time="2024-08-22T15:10:01.443478441-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-22T15:10:01.443566919-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-22T15:10:01.443573986-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-22T15:10:01.443751639-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=1133 runtime=io.containerd.runc.v2
+time="2024-08-22T15:11:51.820496103-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-22T15:11:51.820994621-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-22T15:11:51.821570779-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-22T15:11:51.830191475-04:00" level=warning msg="cleanup warnings time=\"2024-08-22T15:11:51-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=1352 runtime=io.containerd.runc.v2\n"
+time="2024-08-22T15:11:51.911189669-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-22T15:11:51.911261502-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-22T15:11:51.911268748-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-22T15:11:51.911426059-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=1393 runtime=io.containerd.runc.v2
+time="2024-08-23T11:00:20.341205495-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-23T11:00:20.341925666-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-23T11:00:20.342266920-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-23T11:00:20.353105635-04:00" level=warning msg="cleanup warnings time=\"2024-08-23T11:00:20-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=3986 runtime=io.containerd.runc.v2\n"
+time="2024-08-23T11:00:20.473107141-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-23T11:00:20.473233973-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-23T11:00:20.473241246-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-23T11:00:20.473466481-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=4027 runtime=io.containerd.runc.v2
+time="2024-08-23T11:01:51.112620276-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-23T11:01:51.113641971-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-23T11:01:51.114438981-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-23T11:01:51.125631990-04:00" level=warning msg="cleanup warnings time=\"2024-08-23T11:01:51-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=4249 runtime=io.containerd.runc.v2\n"
+time="2024-08-23T11:01:51.245481413-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-23T11:01:51.245587276-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-23T11:01:51.245594519-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-23T11:01:51.245896086-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=4290 runtime=io.containerd.runc.v2
+time="2024-08-26T09:35:46.735583609-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T09:35:46.736451233-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T09:35:46.736786548-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T09:35:46.744178092-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T09:35:46-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=6562 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T09:35:46.824007542-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T09:35:46.824089957-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T09:35:46.824097043-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T09:35:46.824312793-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=6603 runtime=io.containerd.runc.v2
+time="2024-08-26T09:36:45.881235470-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T09:36:45.882458085-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T09:36:45.883701512-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T09:36:45.893348031-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T09:36:45-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=6825 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T09:36:45.981274594-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T09:36:45.981376449-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T09:36:45.981383490-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T09:36:45.981973546-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=6870 runtime=io.containerd.runc.v2
+time="2024-08-26T10:01:04.253715771-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T10:01:04.255822174-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T10:01:04.256595292-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T10:01:04.269246893-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T10:01:04-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=7493 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T10:01:18.970227085-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T10:01:18.970546486-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T10:01:18.970559387-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T10:01:18.970918129-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=7583 runtime=io.containerd.runc.v2
+time="2024-08-26T10:18:47.993815085-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T10:18:47.994437946-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T10:18:47.995098106-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T10:18:48.002633677-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T10:18:47-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=7974 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T10:19:31.509276817-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T10:19:31.509338162-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T10:19:31.509344322-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T10:19:31.509538686-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=8059 runtime=io.containerd.runc.v2
+time="2024-08-26T10:28:37.787278963-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T10:28:37.787941788-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T10:28:37.788341790-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T10:28:37.795147553-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T10:28:37-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=8415 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T10:28:38.780396158-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T10:28:38.780469470-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T10:28:38.780475936-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T10:28:38.780622206-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=8494 runtime=io.containerd.runc.v2
+time="2024-08-26T10:30:17.900028204-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T10:30:17.900646905-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T10:30:17.901032602-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T10:30:17.908553316-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T10:30:17-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=8874 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T10:30:18.733362543-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T10:30:18.733441254-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T10:30:18.733447790-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T10:30:18.733651564-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=8957 runtime=io.containerd.runc.v2
+time="2024-08-26T10:32:51.580065796-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T10:32:51.580771493-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T10:32:51.581446859-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T10:32:51.589506778-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T10:32:51-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=9637 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T10:32:59.425192805-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T10:32:59.425267312-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T10:32:59.425274396-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T10:32:59.425426818-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=9746 runtime=io.containerd.runc.v2
+time="2024-08-26T11:22:15.400731655-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T11:22:15.401822079-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T11:22:15.402184738-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T11:22:15.410093017-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T11:22:15-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=10198 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T11:22:16.633377119-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T11:22:16.633447536-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T11:22:16.633454513-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T11:22:16.633694141-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=10277 runtime=io.containerd.runc.v2
+time="2024-08-26T11:22:38.448659022-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-26T11:22:38.458519005-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.462345493-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.463128704-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-26T11:22:38.463420316-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.463877586-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.464145955-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.464665842-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-26T11:22:38.465063288-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.465425080-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.466421819-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.467108712-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-26T11:22:38.467511537-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-26T11:22:38.467894978-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-26T11:22:38.468316696-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-26T11:22:48.470122175-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
+time="2024-08-26T11:31:32.480073345-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T11:31:32.480593937-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T11:31:32.481022364-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T11:31:32.489352893-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T11:31:32-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=10905 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T11:31:33.734972629-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T11:31:33.735048813-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T11:31:33.735055414-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T11:31:33.735205633-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=10984 runtime=io.containerd.runc.v2
+time="2024-08-26T11:38:52.309602679-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T11:38:52.310610583-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T11:38:52.311058633-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T11:38:52.321048617-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T11:38:52-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=11370 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T11:38:53.348629229-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T11:38:53.348701714-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T11:38:53.348708698-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T11:38:53.348867695-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=11455 runtime=io.containerd.runc.v2
+time="2024-08-26T11:45:13.452320593-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T11:45:13.453248766-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T11:45:13.453732872-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T11:45:13.462093074-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T11:45:13-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=12068 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T11:45:14.573192155-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T11:45:14.573274430-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T11:45:14.573287026-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T11:45:14.573434669-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=12148 runtime=io.containerd.runc.v2
+time="2024-08-26T11:46:36.149174999-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T11:46:36.149735173-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T11:46:36.150090662-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T11:46:36.156799085-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T11:46:36-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=12493 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T11:46:39.650104085-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T11:46:39.650227474-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T11:46:39.650234414-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T11:46:39.650624890-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=12574 runtime=io.containerd.runc.v2
+time="2024-08-26T11:46:47.509741714-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T11:46:47.510167096-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T11:46:47.510483343-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T11:46:47.517965542-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T11:46:47-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=12929 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T11:46:48.625448639-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T11:46:48.625528403-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T11:46:48.625536755-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T11:46:48.625757304-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=13007 runtime=io.containerd.runc.v2
+time="2024-08-26T12:45:34.906350832-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T12:45:34.906826073-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T12:45:34.907162083-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T12:45:34.914922896-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T12:45:34-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=13482 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T12:45:36.061942913-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T12:45:36.062002112-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T12:45:36.062008474-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T12:45:36.062155730-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=13562 runtime=io.containerd.runc.v2
+time="2024-08-26T13:11:34.481034192-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T13:11:34.481662979-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T13:11:34.482053665-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T13:11:34.490679710-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T13:11:34-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=14178 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T13:11:35.509398740-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T13:11:35.509470902-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T13:11:35.509478182-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T13:11:35.509604727-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=14262 runtime=io.containerd.runc.v2
+time="2024-08-26T13:21:00.328631219-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T13:21:00.329524698-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T13:21:00.330309083-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T13:21:00.338821392-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T13:21:00-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=14673 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T13:21:01.150924835-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T13:21:01.151125453-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T13:21:01.151140046-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T13:21:01.151527514-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=14754 runtime=io.containerd.runc.v2
+time="2024-08-26T13:27:46.499989201-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T13:27:46.500808381-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T13:27:46.501074896-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T13:27:46.509479154-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T13:27:46-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=15144 runtime=io.containerd.runc.v2\n"
+time="2024-08-26T13:27:47.509183363-04:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+time="2024-08-26T13:27:47.509270120-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+time="2024-08-26T13:27:47.509277256-04:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+time="2024-08-26T13:27:47.509499519-04:00" level=info msg="starting signal loop" namespace=default path=/run/containerd/io.containerd.runtime.v2.task/default/my-postgres-container pid=15227 runtime=io.containerd.runc.v2
+time="2024-08-26T15:26:51.136936996-04:00" level=info msg="shim disconnected" id=my-postgres-container
+time="2024-08-26T15:26:51.137410169-04:00" level=warning msg="cleaning up after shim disconnected" id=my-postgres-container namespace=default
+time="2024-08-26T15:26:51.137857934-04:00" level=info msg="cleaning up dead shim"
+time="2024-08-26T15:26:51.146177987-04:00" level=warning msg="cleanup warnings time=\"2024-08-26T15:26:51-04:00\" level=info msg=\"starting signal loop\" namespace=default pid=15863 runtime=io.containerd.runc.v2\n"
+time="2024-08-28T09:27:08.369252779-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-28T09:27:08.369702706-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-08-28T09:27:08.378790712-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.379002602-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.382522940-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.382627323-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.383005168-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-28T09:27:08.383125675-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-08-28T09:27:08.383651116-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.383651226-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.384287998-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.384359330-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.384737249-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.384874331-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.385384607-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-28T09:27:08.385615056-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.385571710-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-08-28T09:27:08.386429938-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.387025675-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.387191299-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.387733020-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.387728822-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.388967421-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.389071441-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-08-28T09:27:08.389571541-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-28T09:27:08.389595868-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-08-28T09:27:08.390253959-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-28T09:27:08.390293466-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-08-28T09:27:08.390759785-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-28T09:27:08.390881341-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-08-28T09:27:08.393258319-04:00" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+time="2024-08-28T09:27:08.393919124-04:00" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+time="2024-08-28T09:27:08.394329342-04:00" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+time="2024-08-28T09:27:08.395055238-04:00" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+time="2024-08-28T09:27:08.395585152-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+time="2024-08-28T09:27:08.396317308-04:00" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+time="2024-08-28T09:27:08.396631533-04:00" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+time="2024-08-28T09:27:08.398899678-04:00" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.399392283-04:00" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.399717608-04:00" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.400250720-04:00" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.400645149-04:00" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.401171572-04:00" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.401634645-04:00" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.401879483-04:00" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.402144202-04:00" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+time="2024-08-28T09:27:08.402518895-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.402752277-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.403078413-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.403464879-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.403764657-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.404050003-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.404680718-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.404906246-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.405156222-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.405952821-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.406436705-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.406756194-04:00" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2024-08-28T09:27:08.407475996-04:00" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="no OpenTelemetry endpoint: skip plugin" type=io.containerd.tracing.processor.v1
+time="2024-08-28T09:27:08.408017201-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2024-08-28T09:27:08.408503564-04:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+time="2024-08-28T09:27:08.409300436-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2024-08-28T09:27:08.409568295-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.409795923-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.cri\"..." type=io.containerd.grpc.v1
+time="2024-08-28T09:27:08.410388584-04:00" level=info msg="Start cri plugin with config {PluginConfig:{ContainerdConfig:{Snapshotter:overlayfs DefaultRuntimeName:runc DefaultRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} UntrustedWorkloadRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} Runtimes:map[runc:{Type:io.containerd.runc.v2 Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[BinaryName: CriuImagePath: CriuPath: CriuWorkPath: IoGid:0 IoUid:0 NoNewKeyring:false NoPivotRoot:false Root: ShimCgroup: SystemdCgroup:false] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0}] NoPivot:false DisableSnapshotAnnotations:true DiscardUnpackedLayers:false IgnoreRdtNotEnabledErrors:false} CniConfig:{NetworkPluginBinDir:/opt/cni/bin NetworkPluginConfDir:/etc/cni/net.d NetworkPluginMaxConfNum:1 NetworkPluginConfTemplate: IPPreference:} Registry:{ConfigPath: Mirrors:map[] Configs:map[] Auths:map[] Headers:map[]} ImageDecryption:{KeyModel:node} DisableTCPService:true StreamServerAddress:127.0.0.1 StreamServerPort:0 StreamIdleTimeout:4h0m0s EnableSelinux:false SelinuxCategoryRange:1024 SandboxImage:registry.k8s.io/pause:3.6 StatsCollectPeriod:10 SystemdCgroup:false EnableTLSStreaming:false X509KeyPairStreaming:{TLSCertFile: TLSKeyFile:} MaxContainerLogLineSize:16384 DisableCgroup:false DisableApparmor:false RestrictOOMScoreAdj:false MaxConcurrentDownloads:3 DisableProcMount:false UnsetSeccompProfile: TolerateMissingHugetlbController:true DisableHugetlbController:true DeviceOwnershipFromSecurityContext:false IgnoreImageDefinedVolumes:false NetNSMountsUnderStateDir:false EnableUnprivilegedPorts:false EnableUnprivilegedICMP:false} ContainerdRootDir:/var/lib/containerd ContainerdEndpoint:/run/containerd/containerd.sock RootDir:/var/lib/containerd/io.containerd.grpc.v1.cri StateDir:/run/containerd/io.containerd.grpc.v1.cri}"
+time="2024-08-28T09:27:08.410537542-04:00" level=info msg="Connect containerd service"
+time="2024-08-28T09:27:08.410900931-04:00" level=info msg="Get image filesystem path \"/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs\""
+time="2024-08-28T09:27:08.412835400-04:00" level=error msg="failed to load cni during init, please check CRI plugin status before setting up network for pods" error="cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config"
+time="2024-08-28T09:27:08.413528263-04:00" level=info msg="Start subscribing containerd event"
+time="2024-08-28T09:27:08.414242012-04:00" level=info msg="Start recovering state"
+time="2024-08-28T09:27:08.414694423-04:00" level=info msg="Start event monitor"
+time="2024-08-28T09:27:08.415107749-04:00" level=info msg="Start snapshots syncer"
+time="2024-08-28T09:27:08.413978275-04:00" level=info msg=serving... address=/run/containerd/containerd.sock.ttrpc
+time="2024-08-28T09:27:08.415926160-04:00" level=info msg="Start cni network conf syncer for default"
+time="2024-08-28T09:27:08.416749647-04:00" level=info msg="Start streaming server"
+time="2024-08-28T09:27:08.416232897-04:00" level=info msg=serving... address=/run/containerd/containerd.sock
+time="2024-08-28T09:27:08.417938199-04:00" level=info msg="containerd successfully booted in 0.050131s"
+time="2024-08-28T09:27:18.392446666-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
