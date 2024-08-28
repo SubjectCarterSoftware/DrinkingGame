@@ -387,3 +387,4 @@ time="2024-08-28T09:27:08.416749647-04:00" level=info msg="Start streaming serve
 time="2024-08-28T09:27:08.416232897-04:00" level=info msg=serving... address=/run/containerd/containerd.sock
 time="2024-08-28T09:27:08.417938199-04:00" level=info msg="containerd successfully booted in 0.050131s"
 time="2024-08-28T09:27:18.392446666-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
+containerd: context canceled
