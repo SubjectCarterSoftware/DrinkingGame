@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .large-btn {
+    width: 200px;
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  /* Main Landing Page Styling */
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the avatar and buttons */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .navbar {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navbar-title {
+      display: none; /* Hide title on mobile */
+    }
+  
+    .landing-page {
+      justify-content: flex-start; /* Adjust positioning on mobile */
+    }
+  
+    .landing-content {
+      margin-top: 50px;
+    }
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .avatar-container {
+    margin-bottom: 20px; /* Add some space between the avatar and the buttons */
+  }
+  
