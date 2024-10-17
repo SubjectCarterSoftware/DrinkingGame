@@ -1,0 +1,243 @@
+{
+  "eyes": [
+    {
+      "id": 1,
+      "label": "Round Eyes",
+      "svg": [
+        {
+          "type": "ellipse",
+          "cx": 30,
+          "cy": 35,
+          "rx": 18,
+          "ry": 21.6,
+          "fill": "currentColor"
+        },
+        {
+          "type": "ellipse",
+          "cx": 70,
+          "cy": 35,
+          "rx": 18,
+          "ry": 21.6,
+          "fill": "currentColor"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Rectangular Eyes",
+      "svg": [
+        {
+          "type": "rect",
+          "x": 15,
+          "y": 30,
+          "width": 30,
+          "height": 12,
+          "fill": "currentColor"
+        },
+        {
+          "type": "rect",
+          "x": 55,
+          "y": 30,
+          "width": 30,
+          "height": 12,
+          "fill": "currentColor"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Oval Eyes",
+      "svg": [
+        {
+          "type": "ellipse",
+          "cx": 30,
+          "cy": 35,
+          "rx": 10,
+          "ry": 15,
+          "fill": "currentColor"
+        },
+        {
+          "type": "ellipse",
+          "cx": 70,
+          "cy": 35,
+          "rx": 10,
+          "ry": 15,
+          "fill": "currentColor"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Triangle Eyes",
+      "svg": [
+        {
+          "type": "path",
+          "d": "M25 35 L35 25 L45 35 Z",
+          "fill": "currentColor"
+        },
+        {
+          "type": "path",
+          "d": "M55 35 L65 25 L75 35 Z",
+          "fill": "currentColor"
+        }
+      ]
+    }
+    
+  ],
+  "eyeColors": [
+    { "id": 1, "label": "Black", "color": "#000000" },
+    { "id": 2, "label": "Blue", "color": "#0000FF" },
+    { "id": 3, "label": "Green", "color": "#00FF00" },
+    { "id": 4, "label": "Hazel", "color": "#8E7618" },
+    { "id": 5, "label": "Brown", "color": "#654321" },
+    { "id": 6, "label": "Gray", "color": "#808080" },
+    { "id": 7, "label": "Amber", "color": "#FFBF00" },
+    { "id": 8, "label": "Violet", "color": "#EE82EE" }
+  ],
+  "faces": [
+    {
+      "id": 1,
+      "label": "Square",
+      "svg": {
+        "type": "rect",
+        "x": 10,
+        "y": 10,
+        "width": 80,
+        "height": 80,
+        "fill": "currentColor"
+      }
+    }
+  ],
+  "faceColors": [
+    { "id": 1, "label": "Yellow", "color": "#FFFF00" },
+    { "id": 2, "label": "Brown", "color": "#A52A2A" },
+    { "id": 3, "label": "Pink", "color": "#FFC0CB" },
+    { "id": 4, "label": "Blue", "color": "#0000FF" },
+    { "id": 5, "label": "Green", "color": "#00FF00" },
+    { "id": 6, "label": "Purple", "color": "#800080" },
+    { "id": 7, "label": "Orange", "color": "#FFA500" },
+    { "id": 8, "label": "Red", "color": "#FF0000" }
+  ],
+  "hair": [
+    {
+      "id": 1,
+      "label": "Short",
+      "svg": {
+        "type": "path",
+        "d": "M15 25 Q50 5, 85 25 Q50 15, 15 25",
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": 2,
+      "label": "Long",
+      "svg": {
+        "type": "path",
+        "d": "M10 20 Q50 -10, 90 20 Q50 20, 10 20",
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Curly",
+      "svg": {
+        "type": "path",
+        "d": "M10 20 C20 10, 40 30, 50 20 C60 10, 80 30, 90 20",
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": 4,
+      "label": "Wavy",
+      "svg": {
+        "type": "path",
+        "d": "M10 20 Q30 0, 50 20 Q70 0, 90 20",
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": 5,
+      "label": "Bald",
+      "svg": {
+        "type": "path",
+        "d": "",
+        "fill": "none"
+      }
+    }
+  ],
+  "hairColors": [
+    { "id": 1, "label": "Black", "color": "#000000" },
+    { "id": 2, "label": "Blonde", "color": "#FFD700" },
+    { "id": 3, "label": "Brown", "color": "#A52A2A" },
+    { "id": 4, "label": "Gray", "color": "#808080" },
+    { "id": 5, "label": "Red", "color": "#FF4500" },
+    { "id": 6, "label": "White", "color": "#FFFFFF" },
+    { "id": 7, "label": "Purple", "color": "#800080" },
+    { "id": 8, "label": "Green", "color": "#00FF00" }
+  ],
+  "mouth": [
+    {
+      "id": 1,
+      "label": "Smile",
+      "svg": {
+        "type": "path",
+        "d": "M30 70 Q50 90, 70 70",
+        "stroke": "currentColor",
+        "strokeWidth": 3,
+        "fill": "transparent"
+      }
+    },
+    {
+      "id": 2,
+      "label": "Frown",
+      "svg": {
+        "type": "path",
+        "d": "M30 70 Q50 50, 70 70",
+        "stroke": "currentColor",
+        "strokeWidth": 3,
+        "fill": "transparent"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Neutral",
+      "svg": {
+        "type": "line",
+        "x1": 30,
+        "y1": 70,
+        "x2": 70,
+        "y2": 70,
+        "stroke": "currentColor",
+        "strokeWidth": 3
+      }
+    },
+    {
+      "id": 4,
+      "label": "Open Smile",
+      "svg": {
+        "type": "path",
+        "d": "M30 70 Q50 100, 70 70 Q50 60, 30 70",
+        "stroke": "currentColor",
+        "strokeWidth": 3,
+        "fill": "transparent"
+      }
+    },
+    {
+      "id": 5,
+      "label": "Surprised",
+      "svg": {
+        "type": "path",
+        "d": "M50,70 m-15,0 a15,8 0 1,0 30,0 a15,8 0 1,0 -30,0",
+        "fill": "currentColor"
+      }
+    }
+    
+  ],
+  "mouthColors": [
+    { "id": 1, "label": "Red", "color": "#FF0000" },
+    { "id": 2, "label": "Pink", "color": "#FFC0CB" },
+    { "id": 3, "label": "Brown", "color": "#A52A2A" },
+    { "id": 4, "label": "Black", "color": "#000000" },
+    { "id": 5, "label": "Purple", "color": "#800080" }
+  ]
+}

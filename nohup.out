@@ -484,3 +484,81 @@ time="2024-09-06T14:08:34.521532185-04:00" level=info msg="loading plugin \"io.c
 time="2024-09-06T14:08:34.521838614-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
 time="2024-09-06T14:08:34.522217618-04:00" level=info msg="metadata content store policy set" policy=shared
 time="2024-09-06T14:08:44.523606901-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
+time="2024-09-16T12:09:42.518997677-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-09-16T12:09:42.534443040-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.539614366-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.540380312-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-09-16T12:09:42.541429233-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.542257963-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.542656908-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.543151930-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-09-16T12:09:42.543508141-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.544870323-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.546293143-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.547764393-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-09-16T12:09:42.548423809-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-09-16T12:09:42.549302143-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-09-16T12:09:42.550205618-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-09-16T12:09:42.553816623-04:00" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+time="2024-09-16T12:09:42.554368802-04:00" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+time="2024-09-16T12:09:42.554839849-04:00" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+time="2024-09-16T12:09:42.555768695-04:00" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+time="2024-09-16T12:09:42.556770552-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+time="2024-09-16T12:09:42.557779085-04:00" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+time="2024-09-16T12:09:42.558189733-04:00" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+time="2024-09-16T12:09:42.560681161-04:00" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.561622666-04:00" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.562210212-04:00" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.562690002-04:00" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.563164674-04:00" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.563779632-04:00" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.564549907-04:00" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.565071867-04:00" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.565835988-04:00" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+time="2024-09-16T12:09:42.566655783-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.567117159-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.567799596-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.568752516-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.569393454-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.570177427-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.571022454-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.571766639-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.572528768-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.573275806-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.573723247-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.574466623-04:00" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2024-09-16T12:09:42.575113049-04:00" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="no OpenTelemetry endpoint: skip plugin" type=io.containerd.tracing.processor.v1
+time="2024-09-16T12:09:42.575912482-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2024-09-16T12:09:42.576669242-04:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+time="2024-09-16T12:09:42.577251564-04:00" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2024-09-16T12:09:42.577941467-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.578813520-04:00" level=info msg="loading plugin \"io.containerd.grpc.v1.cri\"..." type=io.containerd.grpc.v1
+time="2024-09-16T12:09:42.579626305-04:00" level=info msg="Start cri plugin with config {PluginConfig:{ContainerdConfig:{Snapshotter:overlayfs DefaultRuntimeName:runc DefaultRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} UntrustedWorkloadRuntime:{Type: Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0} Runtimes:map[runc:{Type:io.containerd.runc.v2 Path: Engine: PodAnnotations:[] ContainerAnnotations:[] Root: Options:map[BinaryName: CriuImagePath: CriuPath: CriuWorkPath: IoGid:0 IoUid:0 NoNewKeyring:false NoPivotRoot:false Root: ShimCgroup: SystemdCgroup:false] PrivilegedWithoutHostDevices:false BaseRuntimeSpec: NetworkPluginConfDir: NetworkPluginMaxConfNum:0}] NoPivot:false DisableSnapshotAnnotations:true DiscardUnpackedLayers:false IgnoreRdtNotEnabledErrors:false} CniConfig:{NetworkPluginBinDir:/opt/cni/bin NetworkPluginConfDir:/etc/cni/net.d NetworkPluginMaxConfNum:1 NetworkPluginConfTemplate: IPPreference:} Registry:{ConfigPath: Mirrors:map[] Configs:map[] Auths:map[] Headers:map[]} ImageDecryption:{KeyModel:node} DisableTCPService:true StreamServerAddress:127.0.0.1 StreamServerPort:0 StreamIdleTimeout:4h0m0s EnableSelinux:false SelinuxCategoryRange:1024 SandboxImage:registry.k8s.io/pause:3.6 StatsCollectPeriod:10 SystemdCgroup:false EnableTLSStreaming:false X509KeyPairStreaming:{TLSCertFile: TLSKeyFile:} MaxContainerLogLineSize:16384 DisableCgroup:false DisableApparmor:false RestrictOOMScoreAdj:false MaxConcurrentDownloads:3 DisableProcMount:false UnsetSeccompProfile: TolerateMissingHugetlbController:true DisableHugetlbController:true DeviceOwnershipFromSecurityContext:false IgnoreImageDefinedVolumes:false NetNSMountsUnderStateDir:false EnableUnprivilegedPorts:false EnableUnprivilegedICMP:false} ContainerdRootDir:/var/lib/containerd ContainerdEndpoint:/run/containerd/containerd.sock RootDir:/var/lib/containerd/io.containerd.grpc.v1.cri StateDir:/run/containerd/io.containerd.grpc.v1.cri}"
+time="2024-09-16T12:09:42.580033542-04:00" level=info msg="Connect containerd service"
+time="2024-09-16T12:09:42.580703401-04:00" level=info msg="Get image filesystem path \"/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs\""
+time="2024-09-16T12:09:42.583071000-04:00" level=error msg="failed to load cni during init, please check CRI plugin status before setting up network for pods" error="cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config"
+time="2024-09-16T12:09:42.585393184-04:00" level=info msg="Start subscribing containerd event"
+time="2024-09-16T12:09:42.586241993-04:00" level=info msg="Start recovering state"
+time="2024-09-16T12:09:42.587054669-04:00" level=info msg="Start event monitor"
+time="2024-09-16T12:09:42.585737290-04:00" level=info msg=serving... address=/run/containerd/containerd.sock.ttrpc
+time="2024-09-16T12:09:42.587957975-04:00" level=info msg="Start snapshots syncer"
+time="2024-09-16T12:09:42.589216093-04:00" level=info msg="Start cni network conf syncer for default"
+time="2024-09-16T12:09:42.589989454-04:00" level=info msg="Start streaming server"
+time="2024-09-16T12:09:42.588492782-04:00" level=info msg=serving... address=/run/containerd/containerd.sock
+time="2024-09-16T12:09:42.591774186-04:00" level=info msg="containerd successfully booted in 0.075676s"
+time="2024-10-17T15:34:08.580402610-04:00" level=info msg="starting containerd" revision= version=1.6.23
+time="2024-10-17T15:34:08.606460073-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.610812163-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.aufs\"..." error="aufs is not supported (modprobe aufs failed: exit status 1 \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.15.133.1-microsoft-standard-WSL2\\n\"): skip plugin" type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.612174221-04:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+time="2024-10-17T15:34:08.613073362-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.614095643-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.614581883-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.615151752-04:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+time="2024-10-17T15:34:08.615554746-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.615903386-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.616580334-04:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.617377501-04:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+time="2024-10-17T15:34:08.618399751-04:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+time="2024-10-17T15:34:08.619196815-04:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+time="2024-10-17T15:34:08.619803055-04:00" level=info msg="metadata content store policy set" policy=shared
+time="2024-10-17T15:34:18.620840666-04:00" level=warning msg="waiting for response from boltdb open" plugin=bolt
